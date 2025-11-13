@@ -5,7 +5,7 @@ const route = useRoute()
 
 <template>
   <div>
-    <h1>Dynamic Route</h1>
+    <h1>See the Test ID below:</h1>
     <p>ID: {{ route.params.id }}</p>
   </div>
 </template>
