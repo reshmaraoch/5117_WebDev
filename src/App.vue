@@ -13,16 +13,12 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink :to="{ name: 'test_w_id', params: { id: 17 } }">Test</RouterLink>
+        <RouterLink to="/login">Login</RouterLink>
       </nav>
     </div>
   </header>
 
-  <template>
-  <div>
-    <h2>Vue Router Test</h2>
-    <router-view />
-  </div>
-</template>
 
   <RouterView />
 </template>
